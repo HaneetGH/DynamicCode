@@ -1,7 +1,10 @@
-# AndroidHotSwapCodeExample
-How to load java code at run-time. Update parts of your app silently with out needing a full APK update.
+# AndroidDynamicCodeExample
 
-Both library projects dynamicmodule and dynamicmodule2 are loaded at runtime. Potentially this code could be downloaded from a server.
+1- On Opening the app system will download .dex file from server ( I have chosen my own hosting server as google drive was making some security issue)
+2- System will Copy that .dex into phone's memory and execute it.
 
-This example shows how you add code to Android project that was not compiled into the original APK.
+Note:-System isn't designed to do some fancy stuff but system will print some value in console.
+
+
+Happy Coding.....
 
